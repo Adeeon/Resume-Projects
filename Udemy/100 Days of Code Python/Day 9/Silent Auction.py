@@ -7,7 +7,6 @@ def new_bidder(name, bid):
     new_bid['name'] = name
     new_bid['bid'] = bid
     bidders.append(new_bid)
-    
 
 auction = False
 
