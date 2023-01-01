@@ -18,10 +18,8 @@ while game:
         
         #start the loop and set random challenger to compare against
         b = data[randint(0, len(data)-1)]
-        if b == a:
-            b = data[randint(0, len(data)-1)]
         #while challenger does equal contestant
-        elif b != a:
+        if b != a:
             
             #prints logo, score if not 0, vs, contestant and challenger
             print(logo)
